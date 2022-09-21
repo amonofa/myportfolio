@@ -44,6 +44,11 @@ function validate() {
             success();
         }
 
+        name.value = ''
+        email.value = ''
+        tel.value = ''
+        msg.value = ''
+
     } )
 }
 
